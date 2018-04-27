@@ -10,10 +10,11 @@ This provides a Docker image containing:
 
 This means you can use the Heroku CLI from any web browser (e.g. desktop, phone, tablet) like this:
 
-[]()
 ![Screencast](screencast.gif "Screencast")
 
 ## Usage
+
+### One-time setup
 
 Clone this repo, then run the below commands
 
@@ -22,6 +23,11 @@ $ cd heroku-cli-in-docker
 $ heroku create
 $ heroku container:login
 $ heroku container:push web
+```
+
+### Login to the container to use the Heroku CLI
+
+```
 $ heroku run zsh
 ```
 
