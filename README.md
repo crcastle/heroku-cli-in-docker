@@ -8,7 +8,7 @@ This provides a Docker image containing:
 * git
 * psql
 
-It can be used from the Heroku Dashboard from any web browser (e.g. desktop, phone, tablet) like this:
+This means you can use the Heroku CLI from any web browser (e.g. desktop, phone, tablet) like this:
 
 []()
 ![Screencast](screencast.gif "Screencast")
